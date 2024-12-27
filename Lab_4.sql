@@ -1,5 +1,5 @@
 
---Part – A
+--Part ï¿½ A
 --1. Write a function to print "hello world".
 Create or Alter Function F_Hello()
 Returns Varchar(50)
@@ -89,7 +89,7 @@ End;
 
 select dbo.F_factorial(10)
 
---Part – B
+--Part ï¿½ B
 --8. Write a function to compare two integers and return the comparison result. (Using Case statement)
 Create or Alter Function F_compare( @n1 int , @n2 int)
 Returns  varchar(50) 
@@ -124,6 +124,7 @@ return @ans
 end;
 
 select dbo.F_Sum_Even()
+
 --10. Write a function that checks if a given string is a palindrome
 Create or Alter Function F_palindrome( @s1 Varchar(50) )
 Returns  Varchar(50) 
@@ -137,7 +138,7 @@ end;
 
 select dbo.F_palindrome('NPN')
 
---Part – C
+--Part ï¿½ C
 --11. Write a function to check whether a given number is prime or not.
 --12. Write a function which accepts two parameters start date & end date, and returns a difference in days.
 --13. Write a function which accepts two parameters year & month in integer and returns total days each
